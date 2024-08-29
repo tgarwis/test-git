@@ -1,0 +1,32 @@
+Git adalah sistem kontrol versi terdistribusi yang digunakan untuk melacak perubahan dalam kode atau file proyek. Dengan Git, kamu bisa mengelola versi dari proyekmu, berkolaborasi dengan orang lain, dan menjaga rekaman historis dari setiap perubahan yang dilakukan. Berikut adalah beberapa perintah dasar Git yang sering digunakan:
+
+1. **Inisialisasi Repositori Git**:
+   - `git init`: Menginisialisasi repositori Git baru di direktori saat ini.
+
+2. **Menambahkan Perubahan**:
+   - `git add <file>`: Menambahkan perubahan pada file tertentu ke staging area.
+   - `git add .`: Menambahkan semua perubahan pada direktori saat ini ke staging area.
+
+3. **Commit Perubahan**:
+   - `git commit -m "pesan commit"`: Menyimpan perubahan di staging area ke repositori dengan pesan yang menjelaskan perubahan tersebut.
+
+4. **Melihat Status**:
+   - `git status`: Menampilkan status perubahan yang ada di direktori kerja, staging area, dan apa yang siap di-commit.
+
+5. **Melihat Log Commit**:
+   - `git log`: Menampilkan riwayat commit dari repositori.
+
+6. **Bekerja dengan Branch**:
+   - `git branch`: Menampilkan daftar branch yang ada.
+   - `git branch <nama-branch>`: Membuat branch baru.
+   - `git checkout <nama-branch>`: Beralih ke branch yang ditentukan.
+
+7. **Menggabungkan Branch**:
+   - `git merge <nama-branch>`: Menggabungkan perubahan dari branch yang ditentukan ke branch saat ini.
+
+8. **Menghubungkan ke Remote**:
+   - `git remote add origin <URL>`: Menghubungkan repositori lokal ke repositori remote (misalnya GitHub).
+   - `git push origin <nama-branch>`: Mengirim perubahan ke branch tertentu di repositori remote.
+
+9. **Mengambil Perubahan dari Remote**:
+   - `git pull origin <nama-branch>`: Mengambil dan menggabungkan perubahan dari branch tertentu di repositori remote.
